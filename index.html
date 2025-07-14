@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Assignment - Step 1</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+ <div class="container">
+    <div class="sidebar">
+      <ul>
+        <li class="active">Step 1<br/><span>Your Info</span></li>
+        <li>Step 2<br/><span>Select Plan</span></li>
+        <li>Step 3<br/><span>Add-Ons</span></li>
+        <li>Step 4<br/><span>Summary</span></li>
+      </ul>
+    </div>
+
+    <div class="form-area">
+      <h2>Personal info</h2>
+      <p>Please provide your name, email address, and phone number.</p>
+
+      <form id="infoForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="e.g. Stephen King" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="e.g. stephenking@lorem.com" required />
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="e.g. 1 234 567 890" required />
+
+        <button type="submit">Next Step</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
